@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="148.63043mm"
+   height="77.912811mm"
+   viewBox="0 0 148.63043 77.912811"
+   version="1.1"
+   id="svg5"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs2"><linearGradient
+       id="vlpa"
+       x2="1"
+       gradientTransform="matrix(168.9,0,0,-168.9,118.99647,68.575293)"
+       gradientUnits="userSpaceOnUse">
+            <stop
+   style="stop-color:#7c2270"
+   offset="0"
+   id="stop4051" />
+            <stop
+   style="stop-color:#aa147e"
+   offset=".2472"
+   id="stop4053" />
+            <stop
+   style="stop-color:#e41d25"
+   offset=".8146"
+   id="stop4055" />
+            <stop
+   style="stop-color:#e41d25"
+   offset="1"
+   id="stop4057" />
+        </linearGradient></defs><g
+     id="layer1"
+     transform="translate(-12.200937,-29.97351)"><g
+       transform="matrix(0.87867296,0,0,-0.87867296,-92.353651,85.678119)"
+       id="g4075">
+        <path
+   d="m 122.09647,63.185293 c -1.882,-0.07905 -3.105,-0.9486 -3.105,-2.808 v -82.9 c 0,-1.445 1.035,-2.752 2.631,-2.752 h 148 c 1.329,0 2.39,0.1205 3.015,1.875 0,0 15,46.94 15.26,47.79 0.5571,1.773 0.1957,2.673 -1.317,3.636 -48.2,30.89 -120.3,35.37 -153,35.37 -4.694,0 -8.571,-0.0941 -11.47,-0.2108"
+   style="fill:url(#vlpa)"
+   id="path4065" />
+        <g
+   transform="matrix(3.764,0,0,3.764,-793.9,-171.9)"
+   style="stroke-width:0.2657"
+   id="g4073">
+        
+  <text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.1998px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';fill:#000080;fill-opacity:0;stroke-width:0.0212558"
+   x="243.76537"
+   y="-42.28022"
+   id="text4410"
+   transform="scale(1,-1)"><tspan
+     id="tspan4408"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.1998px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.0212558"
+     x="243.76537"
+     y="-42.28022">ada</tspan></text></g>
+ </g></g></svg>
