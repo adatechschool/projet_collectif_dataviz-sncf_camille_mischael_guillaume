@@ -1,4 +1,3 @@
-
 @keyframes apparition {
     from{
       width:0%;
@@ -7,105 +6,76 @@
       width: 100%;
     }
 }
-
-  
+ 
 .rerBox{
-position: relative;
-margin-bottom: 5.5em;
-
+  position: relative;
+  margin-bottom: 5.5em;
 }
 
-
 .logoRER{
-width: 100px;
-height: 100px;
-position: absolute;
-top: 0;
-z-index: 2;
-
+  width: 5em;
+  height: 5em;
+  position: absolute;
+  top: 0;
+  z-index: 2;
 }  
 
+.ligne{
+  animation-duration: 2s;
+  animation-name:apparition;
+  height : 15px;
+  border-radius: 10px;
+  position: relative;
+  left: 0em;
+  z-index: 1;
+  top: 2em; 
+}
 
-.ligneA{
-animation-duration: 2s;
-animation-name:apparition;
-height : 15px;
-background: red;
-border-radius: 10px;
-position: relative;
-left: 3em;
-z-index: 1;
-top: 3em;  
+.rerA{
+  background: #ff1400;
 }  
 
-.ligneB{
-animation-duration: 2s;
-animation-name:apparition;
-height : 15px;
-background: #3c91dc;
-border-radius: 10px;
-position: relative;
-left: 3em;
-z-index: 1;
-top: 3em;
+.rerB{
+  background: #3c91dc;
 }  
 
-.ligneC{
-animation-duration: 2s;
-animation-name:apparition;
-height : 15px;
-background: #dc9600;
-border-radius: 10px;
-position: relative;
-left: 3em;
-z-index: 1;
-top: 3em;
+.rerC{
+  background-color: #dc9600;
+}
+
+.rerD{
+  background: #009641;
 }  
 
-.ligneD{
-animation-duration: 2s;
-animation-name:apparition;
-height : 15px;
-background: #009641;
-border-radius: 10px;
-position: relative;
-left: 3em;
-z-index: 1;
-top: 3em;
+.rerE{
+  background: #dc5ab4;
 }  
 
-.ligneE{
-animation-duration: 2s;
-animation-name:apparition;
-height : 15px;
-background: #dc5ab4;
-border-radius: 10px;
-position: relative;
-left: 3em;
-z-index: 1;
-top: 3em;
+.trainR{
+  background: #e59fdb;
 }  
 
-.ligneR{
-animation-duration: 2s;
-animation-name:apparition;
-height : 15px;
-background: #e59fdb;
-border-radius: 10px;
-position: relative;
-left: 3em;
-z-index: 1;
-top: 3em;
-}  
-
-.ligne4{
-animation-duration: 2s;
-animation-name:apparition;
-height : 15px;
-background: #e3b32a;
-border-radius: 10px;
-position: relative;
-left: 3em;
-z-index: 1;
-top: 3em;
+.tram4{
+  background: #e3b32a;
 } 
+
+.metro1{
+background: #ffce00;
+}
+
+.metro4{
+background: #c04191;
+}
+
+.metro5{
+background: #f28e42;
+}
+
+.metro7{
+background: #f3a4ba;
+}
+
+.metro14{
+  background: #662483;
+}
+
