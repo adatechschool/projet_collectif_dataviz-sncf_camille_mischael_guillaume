@@ -7,11 +7,6 @@
 // Use this file to add JavaScript to your project
 
 
-
-// fetch('https://jsonplaceholder.typicode.com/todos/1')
-//       .then(response => response.json())
-//       .then(json => console.log(json))
-
 async function getUrl() {
     const url = 'https://jsonplaceholder.typicode.com/users/';
     const data = await fetch(url);
