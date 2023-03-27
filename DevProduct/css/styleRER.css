@@ -1,0 +1,111 @@
+
+@keyframes apparition {
+    from{
+      width:0%;
+    }
+    to{
+      width: 100%;
+    }
+}
+
+  
+.rerBox{
+position: relative;
+margin-bottom: 5.5em;
+
+}
+
+
+.logoRER{
+width: 100px;
+height: 100px;
+position: absolute;
+top: 0;
+z-index: 2;
+
+}  
+
+
+.ligneA{
+animation-duration: 2s;
+animation-name:apparition;
+height : 15px;
+background: red;
+border-radius: 10px;
+position: relative;
+left: 3em;
+z-index: 1;
+top: 3em;  
+}  
+
+.ligneB{
+animation-duration: 2s;
+animation-name:apparition;
+height : 15px;
+background: #3c91dc;
+border-radius: 10px;
+position: relative;
+left: 3em;
+z-index: 1;
+top: 3em;
+}  
+
+.ligneC{
+animation-duration: 2s;
+animation-name:apparition;
+height : 15px;
+background: #dc9600;
+border-radius: 10px;
+position: relative;
+left: 3em;
+z-index: 1;
+top: 3em;
+}  
+
+.ligneD{
+animation-duration: 2s;
+animation-name:apparition;
+height : 15px;
+background: #009641;
+border-radius: 10px;
+position: relative;
+left: 3em;
+z-index: 1;
+top: 3em;
+}  
+
+.ligneE{
+animation-duration: 2s;
+animation-name:apparition;
+height : 15px;
+background: #dc5ab4;
+border-radius: 10px;
+position: relative;
+left: 3em;
+z-index: 1;
+top: 3em;
+}  
+
+.ligneR{
+animation-duration: 2s;
+animation-name:apparition;
+height : 15px;
+background: #e59fdb;
+border-radius: 10px;
+position: relative;
+left: 3em;
+z-index: 1;
+top: 3em;
+}  
+
+.ligne4{
+animation-duration: 2s;
+animation-name:apparition;
+height : 15px;
+background: #e3b32a;
+border-radius: 10px;
+position: relative;
+left: 3em;
+z-index: 1;
+top: 3em;
+} 
