@@ -1,0 +1,11 @@
+[
+    {"gare": "Juvisy", "paniers": "Paniers Faicheurs", "jour": "Jeudi", "horaires": "16h00 à 20h00", "A": null, "B": null, "C": "Oui", "D": "Oui", "E": null, "tram": null, "Bornes d'appels": 20, "Wifi": "Non", "proprete2023": 92.5, "proprete2022": 97.9, "proprete2021": 94.2, "proprete2020": 91, "proprete2019": 89, "piano": "Non" },
+
+    {"gare": "Bondy", "paniers": "Paniers Faicheurs", "jour": "Mercredi", "horaires": "16h00 à 20h00", "A": null, "B": null, "C": null, "D": null, "E": "Oui", "tram": "T4", "Bornes d'appels": 9, "Wifi": "Oui", "proprete2023": 91.5, "proprete2022": 91.9, "proprete2021": 91.2, "proprete2020": 89.6, "proprete2019": 87, "piano": "Non"},
+
+    {"gare": "Gare de l'Est", "paniers": "Paniers Faicheurs", "jour": "Jeudi", "horaires": "16h00 à 19h00", "A": null, "B": null, "C": null, "D": null, "E": "Oui", "tram": null, "M4": "Oui", "M5": "Oui", "M7": "Oui", "Bornes d'appels": 8, "Wifi": "Oui", "proprete2023": 94.5, "proprete2022": 95.9, "proprete2021": 93.2, "proprete2020": 97, "proprete2019": 92, "piano": "Oui" },
+
+    {"gare": "Gare de Lyon", "paniers": "Paniers Faicheurs", "jour": "Lundi", "horaires": "16h30 à 20h00", "A": "Oui", "B": null, "C": null, "D": "Oui", "E": null, "R": "Oui", "tram": null, "M1": "Oui", "M14": "Oui", "Bornes d'appels": 6, "Wifi": "Oui", "proprete2023": 91.5, "proprete2022": 94.9, "proprete2021": 88.2, "proprete2020": 92, "proprete2019": 92, "piano": "Oui" },
+
+    {"gare": "Choisy le Roi", "paniers": "Paniers Faicheurs", "jour": "Jeudi", "horaires": "16h00 à 19h30", "A": null, "B": null, "C": "Oui", "D": null, "E": null, "tram": null, "Bornes d'appels": 6, "Wifi": "Oui", "proprete2023": 91.5, "proprete2022": 93.6, "proprete2021": 83.2, "proprete2020": 90, "proprete2019": 92, "piano":"Non" }
+]
