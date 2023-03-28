@@ -31,7 +31,7 @@
 
 .a {
     grid-area: a;
-    padding: 35px;
+    /* padding: 35px; */
     background-color: #d7d7d7;
     border-radius: 8px;
 }
