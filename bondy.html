@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Bondy</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/bootstrap.css" rel="stylesheet" />
+        <link href="css/styleStation.css" rel="stylesheet" />
+        <link href="css/testCamille.css" rel="stylesheet" />
+        <link href="css/styleRER.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <img class="logoAda" src="img/logoAda.png"/>
+                <a class="navbar-brand" href="./index.html">DataViz Sncf</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./infos.html">About</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Stations</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./bondy.html">Bondy</a></li>
+                                <li><a class="dropdown-item" href="./choisy.html">Choisy - le - Roi</a></li>
+                                <li><a class="dropdown-item" href="./juvisy.html">Juvisy</a></li>
+                                <li><a class="dropdown-item" href="./garedeLest.html">Gare de l'Est</a></li>
+                                <li><a class="dropdown-item" href="./gareLyon.html">Gare de Lyon</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="headerCamille">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-white">
+                    <h1 class="display-4 fw-bolder">Bondy</h1>
+                    <p class="lead fw-normal text-white-50 mb-0">Commune de la Seine-saint-Denis</p>
+                </div>
+            </div>
+        </header>
+                <!-- Données gare -->
+        <div class="containerGare">
+            <div class="containerGrille">
+
+                <div class="a"></div>
+
+                <!-- Piano -->
+                <div class="b"></div>
+
+                <!-- Bornes d'appel -->
+                <div class="c"></div>
+
+                <!-- Wifi -->
+                <div class="d"></div>
+                
+                <!-- Lignes disponibles -->
+                <div class="e">Lignes transitant par votre gare : </div>
+       
+                <!-- Propreté -->
+                <div class="f">
+                        <canvas id="myChart"></canvas>
+                    </div>                   
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; by Camille Hébert - Guillaume Pagès - Mischaël Phémius</p>
+            <div class="gitbox"><a href="https://github.com/adatechschool/projet_collectif_dataviz-sncf_camille_mischael_guillaume"><img class="git" src="./img/github_white.png" /></a></div></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Data JS-->
+        <script src="js/data.js"></script>
+
+        <!-- Chart JS-->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

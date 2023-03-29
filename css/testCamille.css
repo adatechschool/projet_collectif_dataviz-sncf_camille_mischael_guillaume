@@ -1,0 +1,46 @@
+/* Charte graphique SNCF */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600;800&display=swap');
+
+* { 
+font-family:'Poppins';
+}
+
+
+/* Couleurs :
+Blanc : #FFFFFF
+Gris clair1 : #f2f2f2 (button background)
+Gris clair2 : #d7d7d7 (div cadres)
+Gris moyen : #747678 (textes gris)
+Anthracite : #333333 (textes noirs, div Footer)
+Rouge : #d52b1e (alertes)
+Bleu : #0088ce (titres, icônes) 
+Violet #7e1c71 (dégradé logo)
+*/
+
+
+
+.logoAda {
+    width: 5em;
+   
+}
+
+body {
+    background-color: white;
+}
+
+.headerCamille {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-image: linear-gradient(to right, #7e1c71, #d52b1e);
+}
+
+.footerCamille {
+    background-color: #333333;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.btn {
+    background-color: #f2f2f2;
+}
