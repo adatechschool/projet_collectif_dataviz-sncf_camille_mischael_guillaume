@@ -14,9 +14,9 @@
 
 .containerGrille {
     border: 1px solid white;
-  padding: 16px;
-  width: 1600px;
-  height: 1000px;
+    padding: 16px;
+    width: 1600px;
+    height: 800px;
   
   display: grid;
   grid-template-areas: 
@@ -31,14 +31,13 @@
 
 .a {
     grid-area: a;
-    padding: 10%;
+    /* padding: 35px; */
     background-color: #d7d7d7;
     border-radius: 8px;
 }
 
 .b {
     grid-area: b;
-    padding: 10%;
     background-color: #d7d7d7;
     border-radius: 8px;
 
@@ -46,28 +45,90 @@
 
 .c {
     grid-area: c;
-    padding: 10%;
     background-color: #d7d7d7;
     border-radius: 8px;
 }
 
 .d {
     grid-area: d;
-    padding: 10%;
     background-color: #d7d7d7;
     border-radius: 8px;
 }
 
 .e {
     grid-area: e;
-    padding: 10%;
     background-color:#d7d7d7;
     border-radius: 8px;
 }
 
 .f {
     grid-area: f;
-    padding: 10%;
     background-color: #d7d7d7;
     border-radius: 8px;
+}
+
+.containerGrilleInfos {
+    background-color: ffffff;
+    color: #0088ce;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family:'Poppins';
+    font-weight: 600;
+    font-size: 12px;
+}
+.containerInfos {
+
+    background-color: #FFFFFF;
+    padding: 16px;
+    width: 1600px;
+    height: 900px;
+
+    display: grid;
+    grid-template-areas: 
+        "Alpha Alpha Alpha "
+        "Bravo Charlie Delta "
+        "Bravo Charlie Delta ";
+
+    grid-template-rows: (4, 1fr );
+    grid-template-columns:(4, auto);
+    gap: 8px;
+
+}
+
+.Alpha{
+    grid-area: Alpha;
+    background-color: #d7d7d7;
+    border-radius: 9px;
+    
+}
+.Alpha p{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+.Bravo{
+    grid-area: Bravo;
+    background-color: #d7d7d7;
+    border-radius: 9px;
+}
+.Bravo p h4{
+    text-align: center;
+}
+.Charlie{
+    grid-area: Charlie;
+    background-color: #d7d7d7;
+    border-radius: 9px;
+}
+.Charlie p h4{
+    text-align: center;
+}
+.Delta{
+    grid-area: Delta;
+    background-color: #d7d7d7;
+    border-radius: 9px;
+}
+.Delta p h4{
+    text-align: center;
 }
