@@ -17,21 +17,9 @@
         
 //     }
 // }
-// getUrl()
-
-function findGareIndice(){
-    let title = document.querySelector("title").textContent
-    
-    for (let i = 0;i< data.length; i++){
-        if(data[i].gare == title){
-            return i
-        }
-    }
-
-
-}
 
 let indice = findGareIndice()
+
 
 function piano() {
     let container = document.querySelector(".b")
@@ -69,21 +57,15 @@ function panier_fraicheur() {
         container.appendChild(image);
         container.appendChild(string);
         
-    } else {
-        console.log("yen a pas")
-        image.innerHTML = `<img src="img/nopanier-icon.svg" />`;
-        string.innerHTML = "Il n'y a pas de panier fraîcheur disponible dans votre gare.";
-        container.appendChild(image);
-        container.appendChild(string);
-    }   
+    }
 }
 
 function wifi() {
     let container = document.querySelector(".d")
     let image = document.createElement("p");
     let string = document.createElement("p");
-    let wifi = data[indice].Wifi
-    
+    let wifi = data[4].Wifi
+    console.log(typeof(wifi))
     
     if (wifi == true) {
         image.innerHTML = `<img src="img/wifi-icon.svg" />`;
@@ -104,8 +86,8 @@ function borne() {
     let container = document.querySelector(".c")
     let image = document.createElement("p");
     let string = document.createElement("p");
-    let borne = data[indice].bornes
-    
+    let borne = data[4].bornes
+    console.log(typeof(borne))
     
     image.innerHTML = `<img src="img/sos-icon.svg" />`;
     string.innerHTML = `Vous avez ${borne} bornes d'appel disponibles dans votre gare.`;
