@@ -1,81 +1,80 @@
 @keyframes apparition {
-    from{
-      width:0%;
-    }
-    to{
-      width: 100%;
-    }
+  from{
+    width:0%;
+  }
+  to{
+    width: 100%;
+  }
 }
- 
+
 .rerBox{
-  position: relative;
-  margin-bottom: 5.5em;
+position: relative;
+margin-bottom: 5.5em;
 }
 
 .logoRER{
-  width: 5em;
-  height: 5em;
-  position: absolute;
-  top: 0;
-  z-index: 2;
+width: 5em;
+height: 5em;
+position: absolute;
+top: 0;
+z-index: 2;
 }  
 
 .ligne{
-  animation-duration: 2s;
-  animation-name:apparition;
-  height : 15px;
-  border-radius: 10px;
-  position: relative;
-  left: 0em;
-  z-index: 1;
-  top: 2em; 
+animation-duration: 5s;
+animation-name:apparition;
+height : 15px;
+border-radius: 10px;
+position: relative;
+left: 0.5em;
+z-index: 1;
+top: 2em; 
 }
 
-.rerA{
-  background: #ff1400;
+.A{
+background: #ff1400;
 }  
 
-.rerB{
-  background: #3c91dc;
+.B{
+background: #3c91dc;
 }  
 
-.rerC{
-  background-color: #dc9600;
+.C{
+background-color: #dc9600;
 }
 
-.rerD{
-  background: #009641;
+.D{
+background: #009641;
 }  
 
-.rerE{
-  background: #dc5ab4;
+.E{
+background: #dc5ab4;
 }  
 
-.trainR{
-  background: #e59fdb;
+.R{
+background: #e59fdb;
 }  
 
-.tram4{
-  background: #e3b32a;
+.tram{
+background: #e3b32a;
 } 
 
-.metro1{
+.M1{
 background: #ffce00;
 }
 
-.metro4{
+.M4{
 background: #c04191;
 }
 
-.metro5{
+.M5{
 background: #f28e42;
 }
 
-.metro7{
+.M7{
 background: #f3a4ba;
 }
 
-.metro14{
-  background: #662483;
+.M14{
+background: #662483;
 }
-
