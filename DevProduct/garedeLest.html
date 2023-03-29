@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Gare de l'Est : Les informations</title>
+        <title>Gare de l'Est</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -14,6 +14,7 @@
         <link href="css/bootstrap.css" rel="stylesheet" />
         <link href="css/styleStation.css" rel="stylesheet" />
         <link href="css/testCamille.css" rel="stylesheet" />
+        <link href="css/styleRER.css" rel="stylesheet" />
     </head>
     <body>
         <!-- Navigation-->
@@ -51,45 +52,49 @@
             </div>
         </header>
        
-       
-       
-        <!-- Section Panier fraîcheur-->
+        <!-- Données gare -->
+        <div class="containerGare">
+            <div class="containerGrille">
 
-        <section>
-            <div id="test">
+                <!-- Paniers fraîcheur -->
+                <div class="a">Paniers</div>
+
+                <!-- Piano -->
+                <div class="b">Piano</div>
+
+                <!-- Bornes d'appel -->
+                <div class="c">Bornes appels</div>
+
+                <!-- Wifi -->
+                <div class="d">Wifi</div>
+                
+                <!-- Lignes disponibles -->
+                <div class="e">Lignes</div>
+      
+                <!-- Propreté -->
+                <div class="f">Propreté
+                    <div>
+                        <canvas id="myChart"></canvas>
+                    </div>                   
+                </div>
             </div>
-        </section>
-
-        <!-- Section fréquentation-->
-
-        <section>
-            <div>
-            </div>
-        </section>
-
-        <!-- Section lignes disponibles-->
-
-        <section>
-            <div>
-            </div>
-        </section>
-
-        <!-- Section Borne d'appel-->
-
-        <section>
-            <div>
-            </div>
-        </section>
+        </div>
 
 
-       
         <!-- Footer-->
         <footer class="py-5 bg-dark">
             <div class="container"><p class="m-0 text-center text-white">Copyright &copy; by Camille Hébert - Guillaume Pagès - Mischaël Phémius</p>
-                <div class="gitbox"><a href="https://github.com/adatechschool/projet_collectif_dataviz-sncf_camille_mischael_guillaume"><img class="git" src="./img/github_white.png" /></a></div></div>
+            <div class="gitbox"><a href="https://github.com/adatechschool/projet_collectif_dataviz-sncf_camille_mischael_guillaume"><img class="git" src="./img/github_white.png" /></a></div></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Data JS-->
+        <script src="js/data.js"></script>
+
+        <!-- Chart JS-->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>

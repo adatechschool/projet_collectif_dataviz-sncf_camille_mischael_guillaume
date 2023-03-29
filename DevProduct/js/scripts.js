@@ -26,82 +26,107 @@
 // }
 // getUrl()
 
-console.log(data[4].piano)
-
-function panier_fraicheur() {
-    let container = document.querySelector(".a")
-    let image = document.createElement("p");
-    let string = document.createElement("p");
-    let panier = data[4].paniers
-    console.log(typeof(paniers))
+function findGareIndice(){
+    let title = document.querySelector("title").textContent
     
-    if (panier == true) {
-        image.innerHTML = `<img src="img/panier-icon.svg" />`;
-        string.innerHTML = `Vous pouvez récupérer votre panier fraîcheur le ${data[4].jour} de ${data[4].horaires}`;    
-    } else {
-        console.log("yen a pas")
-        image.innerHTML = `<img src="img/nopanier-icon.svg" />`;
-        string.innerHTML = "Il n'y a pas de panier fraîcheur disponible dans votre gare.";
-    }   
-    container.appendChild(image);
-    container.appendChild(string);
+    for (let i = 0;i< data.length; i++){
+        if(data[i].gare == title){
+            return i
+        }
+    }
+
+
 }
+
+let indice = findGareIndice()
 
 function piano() {
     let container = document.querySelector(".b")
     let image = document.createElement("p");
     let string = document.createElement("p");
-    let piano = data[4].piano
-    console.log(typeof(piano))
+    let piano = data[indice].piano
 
     if (piano == true) {
         image.innerHTML = `<img src="img/piano-icon.svg" />`;
         string.innerHTML = "coucou ya un piano";
+        container.appendChild(image);
+        container.appendChild(string);
+
     } else {
         console.log("yen a pas")
         image.innerHTML = `<img src="img/nopiano-icon.svg" />`;
         string.innerHTML = "déso ya pas de piano";
+        container.appendChild(image);
+        container.appendChild(string);
     }   
-    container.appendChild(image);
-    container.appendChild(string);
+}
+
+
+function panier_fraicheur() {
+    let container = document.querySelector(".a")
+    let image = document.createElement("p");
+    let string = document.createElement("p");
+    let panier = data[indice].paniers
+    
+
+    
+    if (panier == true) {
+        image.innerHTML = `<img src="img/panier-icon.svg" />`;
+        string.innerHTML = `Vous pouvez récupérer votre panier fraîcheur le ${data[indice].jour} de ${data[indice].horaires}`;
+        container.appendChild(image);
+        container.appendChild(string);
+        
+    } else {
+        console.log("yen a pas")
+        image.innerHTML = `<img src="img/nopanier-icon.svg" />`;
+        string.innerHTML = "Il n'y a pas de panier fraîcheur disponible dans votre gare.";
+        container.appendChild(image);
+        container.appendChild(string);
+    }   
 }
 
 function wifi() {
     let container = document.querySelector(".d")
     let image = document.createElement("p");
     let string = document.createElement("p");
-    let wifi = data[4].Wifi
-    console.log(typeof(wifi))
+    let wifi = data[indice].Wifi
+    
     
     if (wifi == true) {
         image.innerHTML = `<img src="img/wifi-icon.svg" />`;
-        string.innerHTML = `Profitez du Wifi gratuit dans votre gare.`;   
+        string.innerHTML = `Profitez du Wifi gratuit dans votre gare.`;
+        container.appendChild(image);
+        container.appendChild(string);
+        
     } else {
         console.log("yen a pas")
         image.innerHTML = `<img src="img/nowifi-icon.svg" />`;
         string.innerHTML = "Le Wifi n'est pas disponible dans votre gare.";
-    }  
-    container.appendChild(image);
-    container.appendChild(string); 
+        container.appendChild(image);
+        container.appendChild(string);
+    }   
 }
 
 function borne() {
     let container = document.querySelector(".c")
     let image = document.createElement("p");
     let string = document.createElement("p");
-    let borne = data[4].bornes
-    console.log(typeof(borne))
+    let borne = data[indice].bornes
+    
     
     image.innerHTML = `<img src="img/sos-icon.svg" />`;
     string.innerHTML = `Vous avez ${borne} bornes d'appel disponibles dans votre gare.`;
     container.appendChild(image);
-    container.appendChild(string);  
+    container.appendChild(string);
+        
+    
 }
+
 
 function isRERC(){
     let container = document.querySelector(".e")
     let isRERC = document.createElement("p");
-    let rerC = data[4].C
+    let rerC = data[indice].C
 
     if (rerC == true) {
         isRERC.innerHTML = `<div class="rerBox">
@@ -119,13 +144,39 @@ function isRERC(){
     }
 }
 
+function proprete () {
+    const ctx = document.getElementById('myChart');
 
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: ['Taux 2019', 'Taux 2020', 'Taux 2021', 'Taux 2022', 'Taux 2022'],
+      datasets: [
+        {
+        label: 'Taux de propreté en gare',
+        data: [data[indice].proprete2019, data[indice].proprete2020, data[indice].proprete2021, data[indice].proprete2022, data[indice].proprete2023, ],
+        borderWidth: 1,
+        backgroundColor: "#0088ce",
+        hoverBorderWidth: 50,
+        
+        }
+    ]
+    },
+    options: {
+      scales: {
+        y: {
+            min: 80,
+            max: 100
+        }
+      }
+    }
+  });
+}
 
+findGareIndice()
 panier_fraicheur()
 piano()
 wifi()
 borne()
 isRERC()
-
-let title = document.querySelector("title").textContent
-console.log(title)
+proprete()
