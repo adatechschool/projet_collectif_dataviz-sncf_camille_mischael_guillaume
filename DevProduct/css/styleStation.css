@@ -100,19 +100,35 @@
     grid-area: Alpha;
     background-color: #d7d7d7;
     border-radius: 9px;
+    
+}
+.Alpha p{
+    text-align: center;
+}
+h4{
+    text-align: center;
 }
 .Bravo{
     grid-area: Bravo;
     background-color: #d7d7d7;
     border-radius: 9px;
 }
+.Bravo p h4{
+    text-align: center;
+}
 .Charlie{
     grid-area: Charlie;
     background-color: #d7d7d7;
     border-radius: 9px;
 }
+.Charlie p h4{
+    text-align: center;
+}
 .Delta{
     grid-area: Delta;
     background-color: #d7d7d7;
     border-radius: 9px;
+}
+.Delta p h4{
+    text-align: center;
 }
